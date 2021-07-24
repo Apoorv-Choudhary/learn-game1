@@ -7,3 +7,7 @@ if __name__ == '__main__':
 
     rectangle = Rectangle(point1, point2)
     print(rectangle.get_rectangle())
+
+    guess_point = Point(4, 4)
+    print(guess_point.get_point())
+    print(guess_point.is_inside_rectangle(rectangle))

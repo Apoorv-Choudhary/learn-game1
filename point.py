@@ -3,5 +3,5 @@ class Point:
         self.x = x
         self.y = y
 
-    def print_point(self):
-        print("{}, {}".format(self.x, self.y))
+    def get_point(self):
+        return "{}, {}".format(self.x, self.y)
